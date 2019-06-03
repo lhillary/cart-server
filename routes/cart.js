@@ -11,8 +11,7 @@ cart.post('/', (req, res) => {
 });
 
 cart.put('/:id', (req, res) => {
-    console.log(req.body);
-    console.log(req.params.id);
+    console.log(req.params.id, req.body);
 });
 
 cart.delete('/:id', (req, res) => {
